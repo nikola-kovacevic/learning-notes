@@ -10,4 +10,4 @@ These notes are written by [Nikola Kovacevic](https://github.com/nikola-kovacevi
 
 ## LICENSE
 
-This work is licensed by the MIT license (LICENSE)
+This work is licensed by the [MIT license](LICENSE)
