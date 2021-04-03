@@ -1,0 +1,21 @@
+{
+  "name": "learning-notes",
+  "version": "1.0.0",
+  "description": "Learning notes on various topics",
+  "scripts": {
+    "storeNotes": "npm run _deleteOldFilesAndFolders && npm run _copyNotesToDocs && npm run _generateSidebar",
+    "_copyNotesToDocs": "node ./_scripts/copyNotesToDocs.js",
+    "_deleteOldFilesAndFolders": "node ./_scripts/deleteOldFilesAndFolders.js",
+    "_generateSidebar": "node ./_scripts/generateSidebar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikola-kovacevic/learning-notes.git"
+  },
+  "author": "Nikola Kovacevic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikola-kovacevic/learning-notes/issues"
+  },
+  "homepage": "https://github.com/nikola-kovacevic/learning-notes#readme"
+}
