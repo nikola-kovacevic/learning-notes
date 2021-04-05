@@ -1,9 +1,12 @@
 const { readdirSync, statSync, writeFileSync } = require("fs");
-const { basename } = require("path");
+const { extname } = require("path");
 
 const NOTES_PATH = "./notes";
 const SIDEBAR_WRITE_PATH = "./_docusaurus/sidebars.js";
 const EXCLUDED_FILES = ["README.md"];
+const IMG_EXTENSIONS = [".png", ".gif", ".jpg", ".jpeg"];
+
+const isNot = (arg) => !arg;
 
 const recurseOverNotesDirectory = (dir = NOTES_PATH) => {
   const filesAndFolders = readdirSync(dir);
@@ -17,9 +20,12 @@ const recurseOverNotesDirectory = (dir = NOTES_PATH) => {
     let file = "";
 
     const workingWithDirectory = statSync(current).isDirectory();
+    const anImage = IMG_EXTENSIONS.includes(extname(fileOrFolder));
+    const excludedFile = EXCLUDED_FILES.includes(fileOrFolder);
 
     const isDataAvailable = {
-      asFile: !workingWithDirectory && !EXCLUDED_FILES.includes(fileOrFolder),
+      asFile:
+        isNot(workingWithDirectory) && isNot(excludedFile) && isNot(anImage),
       asFolder: false,
     };
 
