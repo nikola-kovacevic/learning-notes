@@ -2,7 +2,7 @@
 module.exports = {
   title: "Learning notes",
   tagline: "Nikola Kovacevic's learning notes",
-  url: "https://localhost:3000", // TODO: change this once hosted
+  url: "https://nk-learning-notes.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -30,7 +30,7 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Nikola Kovacevic.`,
+      copyright: `This work is licensed under a MIT license. Copyright © ${new Date().getFullYear()} Nikola Kovacevic.`,
     },
   },
   presets: [
