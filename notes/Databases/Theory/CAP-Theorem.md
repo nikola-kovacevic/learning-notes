@@ -20,7 +20,7 @@ CAP stands for:
 
 ## Databases in the CAP theorem
 
-We classify databases based on the two CAP characteristics they support:
+CAP theorem classifies databases based on the two CAP characteristics they support:
 
 - A **CP database** delivers consistency and partition tolerance at the expense of availability. When a partition occurs between any two nodes, the system has to shut down the non-consistent node (i.e. make it unavailable) until the partition is resolved.
 - An **AP database** delivers availability and partition tolerance at the expense of consistency. When a partition occurs, all nodes remain available but those at the wrong end of a partition might return an older version of data than others. (When the partition is resolved, the AP databases typically resync the nodes to repair all inconsistencies in the system.)
@@ -46,9 +46,7 @@ We classify databases based on the two CAP characteristics they support:
 
 ### Footnotes
 
-[^1] The [formal definition of linearizability](http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf) (“consistency” in the CAP sense) is not entirely straightforward, but the key idea, stated informally, is this:
-
-_If operation B started after operation A successfully completed, then operation B must see the the system in the same state as it was on completion of operation A, or a newer state._
+[^1] The [formal definition of linearizability](http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf) (“consistency” in the CAP sense) is not entirely straightforward, but the key idea, stated informally, is this: _If operation B started after operation A successfully completed, then operation B must see the the system in the same state as it was on completion of operation A, or a newer state._
 
 ### Resources
 
