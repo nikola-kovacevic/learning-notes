@@ -2,9 +2,9 @@
 title: CAP Theorem
 ---
 
-## What is the CAP theorem?
+## Introduction
 
-CAP theorem claims that a distributed system can deliver only two of three desired characteristics: consistency, availability, and partition tolerance. It’s essential to understand the CAP theorem when designing a cloud app so that you can choose a data management system that delivers the characteristics your application needs most.
+CAP theorem claims that a distributed system can deliver only two of three desired characteristics: consistency, availability, and partition tolerance. It’s essential to understand the CAP theorem when designing a cloud app so that we can choose a data management system that delivers the characteristics our application needs most.
 
 CAP stands for:
 
@@ -34,13 +34,13 @@ CAP theorem classifies databases based on the two CAP characteristics they suppo
 
   - Availability in CAP is defined as “every request received by a non-failing (database) node in the system must result in a (non-error) response”. It’s not sufficient for some node to be able to handle the request: any non-failing node needs to be able to handle it. Many highly available (low downtime) systems do not meet this definition of availability.
 
-  - Partition Tolerance basically means that you’re communicating over an asynchronous network that may delay or drop messages. The internet and all our datacenters have this property, so we don’t have any choice in this matter.
+  - Partition Tolerance basically means that we are communicating over an asynchronous network that may delay or drop messages. The internet and all our datacenters have this property, so we don’t have any choice in this matter.
 
 - CAP theorem doesn’t just describe any system, but a very specific model of a system:
 
-  - The CAP system model is a single, read-write register. The CAP theorem says nothing about transactions that touch multiple objects: they are simply out of scope of the theorem, unless you can somehow reduce them down to a single register.
+  - The CAP system model is a single, read-write register. The CAP theorem says nothing about transactions that touch multiple objects: they are simply out of scope of the theorem, unless we can somehow reduce them down to a single register.
 
-  - The only fault considered by the CAP theorem is a network partition. This is not the only kind of thing that can go wrong: nodes can crash or be rebooted, you can run out of disk space, you can hit a bug in the software, etc. In building distributed systems, you need to consider a much wider range of trade-offs, and focussing too much on the CAP theorem leads to ignoring other important issues.
+  - The only fault considered by the CAP theorem is a network partition. This is not the only kind of thing that can go wrong: nodes can crash or be rebooted, we can run out of disk space, we can hit a bug in the software, etc. In building distributed systems, we need to consider a much wider range of trade-offs, and focussing too much on the CAP theorem leads to ignoring other important issues.
 
   - The CAP theorem says nothing about latency, which people tend to care about more than availability. In fact, CAP-available systems are allowed to be arbitrarily slow to respond, and can still be called “available”.
 
