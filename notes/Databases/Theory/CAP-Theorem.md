@@ -44,6 +44,8 @@ CAP theorem classifies databases based on the two CAP characteristics they suppo
 
   - The CAP theorem says nothing about latency, which people tend to care about more than availability. In fact, CAP-available systems are allowed to be arbitrarily slow to respond, and can still be called “available”.
 
+As an alternative to CAP theorem, see [PIE Theorem](./PIE-Theorem)
+
 ### Footnotes
 
 [^1] The [formal definition of linearizability](http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf) (“consistency” in the CAP sense) is not entirely straightforward, but the key idea, stated informally, is this: _If operation B started after operation A successfully completed, then operation B must see the the system in the same state as it was on completion of operation A, or a newer state._
