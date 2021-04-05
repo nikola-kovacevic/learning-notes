@@ -37,17 +37,7 @@ module.exports = {
       copyright: `This work is licensed under a MIT license. Copyright © ${new Date().getFullYear()} Nikola Kovacevic.`,
     },
   },
-  plugins: [
-    [
-      "@docusaurus/plugin-sitemap",
-      {
-        changefreq: "weekly",
-        priority: 0.5,
-        trailingSlash: false,
-      },
-    ],
-    "@docusaurus/plugin-ideal-image",
-  ],
+  plugins: ["@docusaurus/plugin-ideal-image"],
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -58,6 +48,11 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          trailingSlash: false,
         },
       },
     ],
