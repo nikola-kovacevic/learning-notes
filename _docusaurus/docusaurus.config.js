@@ -9,6 +9,10 @@ module.exports = {
   favicon: "img/favicon.ico",
   projectName: "learning-notes",
   themeConfig: {
+    // algolia: {
+    //   apiKey: "YOUR_API_KEY",
+    //   indexName: "YOUR_INDEX_NAME",
+    // },
     navbar: {
       title: "[Learning Notes]",
       logo: {
@@ -33,6 +37,17 @@ module.exports = {
       copyright: `This work is licensed under a MIT license. Copyright © ${new Date().getFullYear()} Nikola Kovacevic.`,
     },
   },
+  plugins: [
+    [
+      "@docusaurus/plugin-sitemap",
+      {
+        changefreq: "weekly",
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
+    "@docusaurus/plugin-ideal-image",
+  ],
   presets: [
     [
       "@docusaurus/preset-classic",
