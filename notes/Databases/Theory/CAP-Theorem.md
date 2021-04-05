@@ -24,7 +24,7 @@ CAP theorem classifies databases based on the two CAP characteristics they suppo
 
 - A **CP database** delivers consistency and partition tolerance at the expense of availability. When a partition occurs between any two nodes, the system has to shut down the non-consistent node (i.e. make it unavailable) until the partition is resolved.
 - An **AP database** delivers availability and partition tolerance at the expense of consistency. When a partition occurs, all nodes remain available but those at the wrong end of a partition might return an older version of data than others. (When the partition is resolved, the AP databases typically resync the nodes to repair all inconsistencies in the system.)
-- A **CA database** delivers consistency and availability across all nodes. It can’t do this if there is a partition between any two nodes in the system, however, and therefore can’t deliver fault tolerance. Many [relational databases](../Relational%20databases/Relational-databases) fall into this category.
+- A **CA database** delivers consistency and availability across all nodes. It can’t do this if there is a partition between any two nodes in the system, however, and therefore can’t deliver fault tolerance. Many [relational databases](../Relational-databases) fall into this category.
 
 ## CAP theorem criticism
 
