@@ -31,7 +31,7 @@ The PIE Theorem allows three possible permutations (PE, PI, and IE).
 - **Infinite Scale & Efficiency (IE)**
   - Under the scale of billions of users, all demanding data as quickly as possible the PE systems began to break down.
   - The problems of PE which the IE solves are impossibility to host all data on a single machine, and inefficient relational JOINs due to the additional I/O and computation required
-  - Rather than optimizing for write simplicity and read flexibility, NoSQL emphasized read simplicity. Ourr data should be organized to allow for simple, fast lookups to specific use cases.
+  - Rather than optimizing for write simplicity and read flexibility, [NoSQL](../NoSQL/NoSQL) emphasized read simplicity. Ourr data should be organized to allow for simple, fast lookups to specific use cases.
   - This denormalized nature made it easier to horizontally shard our data
   - With a denormalized data store, we lose the flexibility of normalization. It’s possible that a new access pattern will require a rewrite of our data. However, by being specific with the access patterns, it is easy to scale our data store to billions of users with consistent, predictable latency.
   - _Examples: MongoDB, Cassandra, HBase, DynamoDB, etc._
