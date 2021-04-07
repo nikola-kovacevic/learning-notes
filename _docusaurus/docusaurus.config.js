@@ -21,6 +21,11 @@ module.exports = {
       },
       items: [
         {
+          href: "https://kovacevic.dev",
+          label: "About me",
+          position: "right",
+        },
+        {
           href: "https://twitter.com/nkovacevic88",
           label: "Twitter",
           position: "right",
