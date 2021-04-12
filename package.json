@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Learning notes on various topics",
   "scripts": {
+    "start": "npm run document && cd _docusaurus && npm run start",
     "deploy": "npm run document && cd _docusaurus && npm ci && npm run build",
     "document": "npm run _deleteOldFilesAndFolders && npm run _copyNotesToDocs && npm run _generateSidebar",
     "_copyNotesToDocs": "node ./_scripts/copyNotesToDocs.js",
