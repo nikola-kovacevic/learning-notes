@@ -35,7 +35,7 @@ An RPC is a remote procedural call protocol. XML-RPC uses XML to encode its call
 
 ## GraphQL
 
-GraphQL is the modern way to create flexible, robust, and strictly-typed APIs. It allows clients to define the structure of the data required, and the same structure of the data is returned from the server, therefore preventing excessively large amounts of data from being returned, but this has implications for how effective web caching of query results can be.
+[GraphQL](GraphQL-API) is the modern way to create flexible, robust, and strictly-typed APIs. It allows clients to define the structure of the data required, and the same structure of the data is returned from the server, therefore preventing excessively large amounts of data from being returned, but this has implications for how effective web caching of query results can be.
 
 GraphQL architecture consists of:
 
