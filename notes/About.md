@@ -7,9 +7,11 @@ Why am I doing this? Taking good notes is an important part of any learning proc
 
 These learning notes are structured by topic and consist of things I learned through my career. I will add new items to this repository as I learn them. The main idea is that I structure my thoughts as I learn new things, and as I reflect on previous knowledge.
 
-## Inspiration
+## About
 
 I was inspired by a former colleague of mine [Maarten Michiels](https://github.com/mistermicheels) and his [learning notes project](https://learning-notes.mistermicheels.com/).
+
+The documentation is generated with [Docusaurus](https://docusaurus.io/). Notes are migrated to `_docusaurus` folder with scripts included in this repository. Site is hosted on [Netlify](https://www.netlify.com/). Search bar is powered by the Docusaurus community plugin [docusaurus-lunr-search](https://github.com/lelouch77/docusaurus-lunr-search).
 
 ## Author
 
