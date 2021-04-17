@@ -19,7 +19,7 @@ The SOAP specification includes:
 
 ## REST
 
-REST (representational state transfer) is a very popular web API architecture. REST API must adhere to following architectural constraints/principles:
+[REST](REST-API) (representational state transfer) is a very popular web API architecture. REST API must adhere to following architectural constraints/principles:
 
 - **Client-server architecture**: the interface is separated from the backend and data storage. This allows for flexibility, and for different components to evolve independent of each other.
 - **Statelessness**: no client context is stored on the server between requests.
