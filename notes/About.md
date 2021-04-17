@@ -7,7 +7,7 @@ Why am I doing this? Taking good notes is an important part of any learning proc
 
 These learning notes are structured by topic and consist of things I learned through my career. I will add new items to this repository as I learn them. The main idea is that I structure my thoughts as I learn new things, and as I reflect on previous knowledge.
 
-## About
+## How I got inspired and built this?
 
 I was inspired by a former colleague of mine [Maarten Michiels](https://github.com/mistermicheels) and his [learning notes project](https://learning-notes.mistermicheels.com/).
 
