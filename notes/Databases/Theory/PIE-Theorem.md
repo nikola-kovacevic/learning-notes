@@ -43,4 +43,4 @@ The PIE Theorem allows three possible permutations (PE, PI, and IE).
 
 ### Resources
 
-[AWS re:Invent 2018: Building with AWS Databases: Match Your Workload to the Right Database (DAT301)](https://www.youtube.com/watch?v=hwnNbLXN4vA)
+- [AWS re:Invent 2018: Building with AWS Databases: Match Your Workload to the Right Database (DAT301)](https://www.youtube.com/watch?v=hwnNbLXN4vA)

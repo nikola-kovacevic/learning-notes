@@ -42,4 +42,4 @@ NoSQL database technology is usually adopted for one or more of the following re
 
 ### Resources
 
-[What is NoSQL, by MongoDB](https://www.mongodb.com/nosql-explained)
+- [What is NoSQL, by MongoDB](https://www.mongodb.com/nosql-explained)
