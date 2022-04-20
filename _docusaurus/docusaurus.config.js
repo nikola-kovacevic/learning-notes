@@ -22,11 +22,6 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://twitter.com/nkovacevic88",
-          label: "Twitter",
-          position: "right",
-        },
-        {
           href: "https://github.com/nikola-kovacevic",
           label: "GitHub",
           position: "right",
