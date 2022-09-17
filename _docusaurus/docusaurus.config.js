@@ -22,6 +22,11 @@ module.exports = {
           position: "right",
         },
         {
+          href: "https://twitter.com/CtrlArchiDel",
+          label: "Twitter",
+          position: "right",
+        },
+        {
           href: "https://github.com/nikola-kovacevic",
           label: "GitHub",
           position: "right",
