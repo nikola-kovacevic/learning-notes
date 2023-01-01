@@ -1,7 +1,7 @@
 const { readdirSync, statSync, writeFileSync } = require("fs");
 const { extname } = require("path");
 
-const NOTES_PATH = "./notes";
+const NOTES_PATH = "./_docusaurus/docs";
 const SIDEBAR_WRITE_PATH = "./_docusaurus/sidebars.js";
 const EXCLUDED_FILES = ["README.md"];
 const IMG_EXTENSIONS = [".png", ".gif", ".jpg", ".jpeg"];
