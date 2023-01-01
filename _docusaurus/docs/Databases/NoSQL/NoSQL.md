@@ -8,7 +8,7 @@ A NoSQL database provides a mechanism for storage and retrieval of data that is 
 
 The data structures used by NoSQL databases (e.g. key–value pair, wide column, graph, or document) are different from those used by default in relational databases, making some operations faster in NoSQL. The particular suitability of a given NoSQL database depends on the problem it must solve. Sometimes the data structures used by NoSQL databases are also viewed as "more flexible" than relational database tables.
 
-In the sense of the [CAP theorem](../Theory/CAP-Theorem) NoSQL stores compromise consistency in favor of availability, partition tolerance, and speed.
+In the sense of the [CAP theorem](../Theory/CAP-Theorem.md) NoSQL stores compromise consistency in favor of availability, partition tolerance, and speed.
 
 ## Types of NoSQL databases
 
@@ -16,10 +16,10 @@ NoSQL databases (aka "not only SQL") are non tabular, and store data differently
 
 The main types of NoSQL databases are:
 
-1. [Key/Value stores](./Key-Value-Stores)
-2. [Document database](./Document-Database)
-3. [Column oriented database](Column-Oriented-Database)
-4. [Graph databases](./Graph-Database)
+1. [Key/Value stores](./Key-Value-Stores.md)
+2. [Document database](./Document-Database.md)
+3. [Column oriented database](./Column-Oriented-Database.md)
+4. [Graph databases](./Graph-Database.md)
 
 They provide flexible schemas and scale easily with large amounts of data and high user loads.
 

@@ -10,7 +10,7 @@ Document database is schema free, we don’t have to define the schema ahead of 
 
 ## How are things handled from a developer perspective?
 
-- **Concurrency** is only applicable on a single document, and it is usually offered as optimistic writes. For document databases that also have replication support, we have to deal with the same potential conflicts that arise when using eventual consistency [key/value store](Key-Value-Stores)
+- **Concurrency** is only applicable on a single document, and it is usually offered as optimistic writes. For document databases that also have replication support, we have to deal with the same potential conflicts that arise when using eventual consistency [key/value store](./Key-Value-Stores.md)
 - Defining characteristic of a document-oriented database is that, beyond the simple key-to-document lookup that can be used to retrieve a document, the database offers an API or **query** language that allows the user to retrieve documents based on content (or metadata).
 - Most document databases offer **transaction** support for the a single document. Some support multi document (and multi node) transactions, but even so, it isn’t recommended for common use, because of the potential for issues when using distributed transactions.
 - Document databases doesn’t have a **schema** per-se, you can store any sort of document inside them. The only limitation is that the document must be in a format that the database understands.

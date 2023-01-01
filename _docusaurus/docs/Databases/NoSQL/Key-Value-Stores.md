@@ -32,7 +32,7 @@ Eventual consistency means that if a write operation is completed successfully, 
 
 </div>
 
-Eventually-consistent services are often classified as providing [BASE](../Theory/BASE) (Basically Available, Soft state, Eventual consistency) semantics.
+Eventually-consistent services are often classified as providing [BASE](../Theory/BASE.md) (Basically Available, Soft state, Eventual consistency) semantics.
 
 ## Common Usage
 

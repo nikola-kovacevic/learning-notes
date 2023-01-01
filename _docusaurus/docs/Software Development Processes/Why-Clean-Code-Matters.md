@@ -78,7 +78,7 @@ These principles are based on Uncle Bob's book "Clean Code". I selected the ones
 
 ## How to ensure the team follows the principles
 
-All code must be peer-reviewed. [Code reviews](Git%20Usage/Enhance-Git-Usage) should be done through pull requests of feature branches. Nothing can be merged into the main branch without approval. Pull requests must pass a series of build checks as well, including the passing of all tests.
+All code must be peer-reviewed. [Code reviews](./Git%20Usage/Enhance-Git-Usage.md) should be done through pull requests of feature branches. Nothing can be merged into the main branch without approval. Pull requests must pass a series of build checks as well, including the passing of all tests.
 
 Pair programming is helpful mechanism on large implementations or when making important design decisions at a low level.
 

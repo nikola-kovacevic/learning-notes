@@ -6,7 +6,7 @@ title: BASE model
 
 The rise of NoSQL databases provided a flexible and fluid way to manipulate data. As a result, a new database model was designed, reflecting these properties.
 
-BASE provides less assurance than [ACID](ACID), but it scales very well and reacts well to rapid data changes. BASE construction has three properties:
+BASE provides less assurance than [ACID](./ACID.md), but it scales very well and reacts well to rapid data changes. BASE construction has three properties:
 
 BASE stands for:
 

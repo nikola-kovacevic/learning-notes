@@ -24,7 +24,7 @@ Reviewer has a responsibility to make sure that the code is correct and of high 
 
 Making **smaller pull requests** is the best way to speed up the review time. Because the PR is small, it’s easier for the reviewers to understand the context and reason with the logic.
 
-Having a **[PR template](Pull-Request-Template) and writing a useful description** in the details section of the pull request can almost be as effective as making a smaller pull request. The idea is to guide the reviewer through the code as much as possible, highlighting related files and grouping them into concepts or problems that are being solved.
+Having a **[PR template](./Pull-Request-Template.md) and writing a useful description** in the details section of the pull request can almost be as effective as making a smaller pull request. The idea is to guide the reviewer through the code as much as possible, highlighting related files and grouping them into concepts or problems that are being solved.
 
 **Screenshots** simply make the job for the reviewer much easier. It’s easier to reason about front-end changes when you can visually see what’s been changed in the pull request. You could go as far as adding a GIF or video of you using the feature to add some extra validation for your UI changes.
 

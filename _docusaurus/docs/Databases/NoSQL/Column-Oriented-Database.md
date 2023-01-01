@@ -4,7 +4,7 @@ title: Column Oriented Database
 
 ## Introduction
 
-A wide-column store is a type of [NoSQL database](NoSQL). It uses tables, rows, and columns, but unlike a relational database, the names and format of the columns can vary from row to row in the same table. A wide-column store can be interpreted as a two-dimensional key–value store.
+A wide-column store is a type of [NoSQL database](../NoSQL/NoSQL.md). It uses tables, rows, and columns, but unlike a relational database, the names and format of the columns can vary from row to row in the same table. A wide-column store can be interpreted as a two-dimensional key–value store.
 
 Column databases are not relational, they don’t even have what a RDBMS advocate would recognize as tables. The following concepts are critical to understand how column databases work:
 

@@ -19,7 +19,7 @@ The SOAP specification includes:
 
 ## REST
 
-[REST](REST-API) (representational state transfer) is a very popular web API architecture. REST API must adhere to following architectural constraints/principles:
+[REST](./REST-API.md) (representational state transfer) is a very popular web API architecture. REST API must adhere to following architectural constraints/principles:
 
 - **Client-server architecture**: the interface is separated from the backend and data storage. This allows for flexibility, and for different components to evolve independent of each other.
 - **Statelessness**: no client context is stored on the server between requests.
@@ -35,7 +35,7 @@ An RPC is a remote procedural call protocol. XML-RPC uses XML to encode its call
 
 ## GraphQL
 
-[GraphQL](GraphQL-API) is the modern way to create flexible, robust, and strictly-typed APIs. It allows clients to define the structure of the data required, and the same structure of the data is returned from the server, therefore preventing excessively large amounts of data from being returned, but this has implications for how effective web caching of query results can be.
+[GraphQL](./GraphQL-API.md) is the modern way to create flexible, robust, and strictly-typed APIs. It allows clients to define the structure of the data required, and the same structure of the data is returned from the server, therefore preventing excessively large amounts of data from being returned, but this has implications for how effective web caching of query results can be.
 
 GraphQL architecture consists of:
 

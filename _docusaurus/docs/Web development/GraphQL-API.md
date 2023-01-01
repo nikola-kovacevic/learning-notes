@@ -58,7 +58,7 @@ Main benefit of GraphQL is to enable clients to query for just the data they nee
 
 ### Diminishes shared nothing architecture
 
-Unlike [RESTful APIs](REST-API) that complement shared nothing architecture, GraphQL diminishes shared nothing architecture. In example you could have two REST endpoints that look alike connecting to two different REST resources. Internally though, they could point to two different services on isolated compute clusters. One service could be written in Java and the other in NodeJS. The complexity in routing HTTP requests via host or URL is much lower than inspecting a GraphQL query and performing multiple joins.
+Unlike [RESTful APIs](./REST-API.md) that complement shared nothing architecture, GraphQL diminishes shared nothing architecture. In example you could have two REST endpoints that look alike connecting to two different REST resources. Internally though, they could point to two different services on isolated compute clusters. One service could be written in Java and the other in NodeJS. The complexity in routing HTTP requests via host or URL is much lower than inspecting a GraphQL query and performing multiple joins.
 
 ### Rigid GraphQL queries
 
