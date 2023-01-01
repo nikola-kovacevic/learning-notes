@@ -2,10 +2,11 @@
 module.exports = {
   title: "Learning notes",
   tagline: "Nikola Kovacevic's learning notes",
-  url: "https://nk-learning-notes.netlify.app/",
+  url: "https://learning-notes.kovacevic.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  trailingSlash: false,
   favicon: "img/favicon.ico",
   projectName: "learning-notes",
   themeConfig: {
@@ -56,7 +57,6 @@ module.exports = {
         sitemap: {
           changefreq: "weekly",
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],
