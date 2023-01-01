@@ -1,4 +1,4 @@
-const { rmdirSync } = require("fs");
+const { rmdirSync, existsSync } = require("fs");
 
 const oldFilesAndFoldersPaths = [
   "./_docusaurus/docs",
@@ -6,5 +6,7 @@ const oldFilesAndFoldersPaths = [
 ];
 
 for (const path of oldFilesAndFoldersPaths) {
-  rmdirSync(path, { recursive: true });
+  if (existsSync(path)) {
+    rmdirSync(path, { recursive: true });
+  }
 }
